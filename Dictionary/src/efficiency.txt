@@ -1,0 +1,11 @@
+Dictionary(String str) =====================================================> Big-O(1)
+Dictionary() ===============================================================> Big-O(1)
+Dictionary(File wordsFile) =================================================> Big-O(n * log(n))
+addWord(String str) ========================================================> Big-O(log(n))
+findWord(String str) =======================================================> Big-O(log(n))
+deleteWord(String str) =====================================================> Big-O(log(n))
+findSimilar(String str) ====================================================> Big-O(n * l), where ‘l’ is the number of letters.
+toFile(File file) ==========================================================> Big-O(n)
+updateFile(String name) ====================================================> Big-O(m * log(m) + (n + m)), where 'm' is the number of words exists in the file.
+strBuilderInOrder(BSTNode<String> node, StringBuilder output, String sep) ==> Big-O(n)
+getExecutionTime(long startTime) ===========================================> Big-O(1)
